@@ -1,0 +1,140 @@
+.Skills {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../../assets/halfdome-mobile.jpg');
+    background-size: cover;
+    background-position: 0% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 50px 0px;
+}
+
+.skill-container{
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-icon-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+.skill-title {
+    color: white;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.skills-line {
+    width: 100px;
+    height: 1px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.skill-icon-container li {
+    height: 115px;
+    width: 115px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.skill-icon-span{
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    background: linear-gradient( rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35));    
+    border: solid 2px white;
+    border-radius: 3px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-icon {
+    transform: rotate(-45deg);
+}
+
+.skills-react-icon {
+    height: 115px;
+    width: 115px;
+    padding-top: 1px;
+}
+
+.skills-nodejs-icon {
+    height: 75px;
+    width: 75px;
+    padding-left: 6px;
+}
+
+.skills-postgresql-icon {
+    height: 85px;
+    width: 85px;
+    padding-top: 13px;
+}
+
+.skills-npm-icon {
+    height: 80px;
+    width: 80px;
+    padding-top: 5px;
+}
+
+.skills-github-icon {
+    height: 80px;
+    width: 80px;
+    padding-top: 5px;
+}
+
+.skills-chartjs-icon {
+    height: 80px;
+    width: 80px;
+}
+
+.skills-angular-icon {
+    height: 70px;
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.skills-html-icon {
+    height: 70px;
+    width: 70px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.skills-css-icon {
+    height: 70px;
+    width: 55px;
+}
+
+.skills-javascript-icon {
+    height: 70px;
+    width: 55px;
+}
+
+
+
+
+
+@media(min-width: 1000px){
+    .Skills {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../../assets/halfdome.jpg');
+        background-size: cover;
+        background-position: 0% 50%;
+    }    
+}

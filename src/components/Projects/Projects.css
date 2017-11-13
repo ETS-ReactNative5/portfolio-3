@@ -1,0 +1,26 @@
+.Projects {
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #686868;  
+    padding-bottom: 50px;  
+}
+
+.projects-container {
+    width: calc(100% - 30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.projects-line {
+    width: 100px;
+    height: 1px;
+    background: #686868;
+    margin-bottom: 10px;
+}
+
