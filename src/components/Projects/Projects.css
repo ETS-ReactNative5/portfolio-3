@@ -24,3 +24,17 @@
     margin-bottom: 10px;
 }
 
+.projects-container-bottom {
+    width: calc(100% - 30px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+@media(min-width: 1000px){
+      
+}

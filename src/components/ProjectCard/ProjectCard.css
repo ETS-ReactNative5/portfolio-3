@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 3px 3px 1px #cccccc;
 }
 
 .ProjectCard:hover {
@@ -36,4 +37,12 @@
 
 .projectcard-info {
     margin-left: 10px;
+}
+
+
+
+@media(min-width: 650px){
+    .ProjectCard {
+        margin: 30px 15px 0px 15px;
+    }
 }

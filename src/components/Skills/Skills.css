@@ -1,6 +1,7 @@
 .Skills {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 450px;    
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../../assets/halfdome-mobile.jpg');
     background-size: cover;
     background-position: 0% 50%;
@@ -20,6 +21,7 @@
 
 .skill-icon-container{
     width: 100%;
+    max-width: 700px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -129,7 +131,11 @@
 
 
 
-
+@media(min-width: 650px){
+    .skill-icon-container li {
+        margin: 15px 5px 15px 5px;
+    }
+}
 
 @media(min-width: 1000px){
     .Skills {

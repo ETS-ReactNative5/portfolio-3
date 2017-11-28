@@ -3,6 +3,11 @@ import './Landing.css';
 import reactIcon from '../../assets/react-icon-white.svg'
 
 class Landing extends Component {
+    constructor(props){
+        super(props);
+
+    }
+
   render() {
     return (
       <div className="Landing">
@@ -19,10 +24,10 @@ class Landing extends Component {
             </div>
             <div className="landing-vertical-line"></div>
             <div className="landing-links">
-                <div className="landing-link landing-link-top"><div>About</div></div>
-                <div className="landing-link landing-link-top"><div>Skills</div></div>
-                <div className="landing-link landing-link-top"><div>Projects</div></div>
-                <div className="landing-link"><div>Contact</div></div>
+                <div className="landing-link landing-link-top" onClick={()=> this.props.scrollMethod('About', 1000)}><div>About</div></div>
+                <div className="landing-link landing-link-top" onClick={()=> this.props.scrollMethod('Skills', 1500)}><div>Skills</div></div>
+                <div className="landing-link landing-link-top" onClick={()=> this.props.scrollMethod('Projects', 2000)}><div>Projects</div></div>
+                <div className="landing-link" onClick={()=> this.props.scrollMethod('Contact', 2500)}><div>Contact</div></div>
             </div>
         </div>
       </div>

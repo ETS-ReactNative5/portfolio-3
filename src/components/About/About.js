@@ -12,7 +12,7 @@ class About extends Component {
             <h1>About Me</h1>
             <div className='about-line'></div>
             <p>
-              Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.
+              After half a decade of computer maintenence and repair work, I decided to jump back into my high school passion of programming. In September of 2017 I attended DevMountain where I learned full stack web development.  
             </p>
           </div>
           <div className="about-picture">
