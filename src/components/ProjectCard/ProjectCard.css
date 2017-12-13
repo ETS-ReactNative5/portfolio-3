@@ -5,7 +5,7 @@
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     box-shadow: 3px 3px 1px #cccccc;
 }
@@ -13,6 +13,11 @@
 .ProjectCard:hover {
     background: rgba(0, 0, 0, 0.15);
     cursor: pointer;
+}
+
+.projectcard-title {
+    justify-self: flex-start;    
+    margin-top: 5px;
 }
 
 .projectcard-title h3 {
@@ -26,13 +31,14 @@
     flex-direction: row;
     font-size: 12px;
     font-family: 'Source Sans Pro', sans-serif;    
+    margin-bottom: 10px;
 }
 
 
 .projectcard-image {
     width: 150px;
     height: 90px;
-    margin: 15px;
+    margin: 0 0 15px 0;
 }
 
 .projectcard-info {
@@ -43,6 +49,14 @@
 
 @media(min-width: 650px){
     .ProjectCard {
+        width: 500px;
+        height: 350px;
         margin: 30px 15px 0px 15px;
+    }
+
+    .projectcard-image {
+        width: 250px;
+        height: 165px;
+        margin: 0 0 15px 0;
     }
 }

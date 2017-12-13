@@ -19,7 +19,7 @@ class Landing extends Component {
             <div className="landing-title-section">
                 <div className='landing-name-container'>
                     <h1 className="landing-name">William Hartman</h1>
-                    <h5 className="landing-subtitle">Software Engineer</h5>
+                    <h5 className="landing-subtitle">Web Developer</h5>
                 </div>
             </div>
             <div className="landing-vertical-line"></div>

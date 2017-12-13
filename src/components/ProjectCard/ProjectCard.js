@@ -3,7 +3,7 @@ import './ProjectCard.css';
 
 export default function ProjectCard(props){
     return(
-        <div className="ProjectCard">
+        <div className="ProjectCard" onClick={() => window.open(props.project.url, "_blank")}>
             <div className="projectcard-title">
                 <h3>{props.project.name}</h3>
             </div>

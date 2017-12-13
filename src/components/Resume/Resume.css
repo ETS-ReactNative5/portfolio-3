@@ -1,0 +1,8 @@
+.Resume {
+    height: 100vh;
+    width: 100%;
+    background: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

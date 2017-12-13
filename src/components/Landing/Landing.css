@@ -119,6 +119,14 @@
     .landing-link {
         border-bottom: none;        
     }
+
+    .landing-name{
+        font-size: 40px;
+    }
+
+    .landing-subtitle{
+        font-size: 24px;
+    }
 }
 
 @media(min-width: 1000px){
