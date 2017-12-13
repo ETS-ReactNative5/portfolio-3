@@ -28,7 +28,7 @@ class App extends Component {
         <Skills ref={(section) => { this.Skills = section; }}/>
         <Projects ref={(section) => { this.Projects = section; }}/>
         <Contact ref={(section) => { this.Contact = section; }}/>
-        <Footer />
+        <Footer ref={(section) => { this.Contact = section; }}/>
       </div>
     );
   }

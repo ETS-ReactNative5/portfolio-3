@@ -4,6 +4,8 @@ import LinkedinIcon from 'react-icons/lib/fa/linkedin-square';
 import GithubIcon from 'react-icons/lib/fa/github-square';
 import EmailIcon from 'react-icons/lib/fa/envelope-square';
 import ResumeIcon from 'react-icons/lib/fa/file';
+import resume from '../../assets/resume.pdf'
+
 
 class Footer extends Component {
   render() {
@@ -25,13 +27,13 @@ class Footer extends Component {
                   color={'white'}
                   onClick={()=> window.open("mailto:hartman.william@gmail.com", "_blank")}                  
                 />
-                <div className='footer-resume'>
+                <a href={resume} download={'William-Hartman-Resume'} className='footer-resume'>
                   <ResumeIcon 
                     size={18}
                     color={'#143306'}
                     onClick={()=> window.open("/Resume", "_blank")}                  
                   />
-                </div>
+                </a>
             </div>
       </div>
     );
