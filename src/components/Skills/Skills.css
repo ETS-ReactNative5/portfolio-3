@@ -123,8 +123,24 @@
 }
 
 .skills-javascript-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.skills-cypress-icon {
     height: 70px;
-    width: 55px;
+    width: 70px;
+}
+
+.skills-azure-icon {
+    height: 65px;
+    width: 65px;
+    margin: 0px 12px 12px 0px;
+}
+
+.skills-mysql-icon {
+    height: 70px;
+    width: 70px;
 }
 
 

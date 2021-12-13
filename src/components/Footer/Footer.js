@@ -27,11 +27,11 @@ class Footer extends Component {
                   color={'white'}
                   onClick={()=> window.open("mailto:hartman.william@gmail.com", "_blank")}                  
                 />
-                <a href={resume} download={'William-Hartman-Resume'} className='footer-resume'>
+                <a href={resume} className='footer-resume'>
                   <ResumeIcon 
                     size={18}
                     color={'#143306'}
-                    onClick={()=> window.open("/Resume", "_blank")}                  
+                    onClick={()=> window.open(resume)}                  
                   />
                 </a>
             </div>

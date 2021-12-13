@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './About.css';
 import aboutPic from '../../assets/kinkokuji.jpg';
+import newAboutPic from '../../assets/profile-pic.jpg';
 
 
 class About extends Component {
@@ -20,7 +21,7 @@ class About extends Component {
             </p>
           </div>
           <div className="about-picture">
-            <img src={aboutPic} alt="about"/>
+            <img src={newAboutPic} alt="about"/>
           </div>
         </div>
       </div>
