@@ -4,7 +4,7 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 import cciImage from '../../assets/ccidualview.png';
 import relativepayImage from '../../assets/relativepaydualview.png';
 import nebofitImage from '../../assets/nebofitdualview.png';
-import s3Image from '../../assets/s3_center.gif';
+import s3Image from '../../assets/S3_center.gif';
 
  
 class Projects extends Component {
