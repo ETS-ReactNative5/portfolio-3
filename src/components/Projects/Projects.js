@@ -40,7 +40,7 @@ class Projects extends Component {
           tech: 'React, Redux, Node, JavaScript, PostgreSQL, Express, Cron, GroupMe, Massive, Cypress, Material UI, Moment, Flexbox',
           description: 'Full stack website that allows for easy sign up to the pickup games for Dartmouth Tuck soccer club and post the sign up player list to the GroupMe message group via a bot. The app will create 2 or 4 randomized teams based on number of players and clear itself after the game is over.',
           image: s3Image,
-          url: 'https://,github.com/WilliamHartman/s3'
+          url: 'https://github.com/WilliamHartman/s3'
         },
         {
           name: 'BJJ Curriculum',
