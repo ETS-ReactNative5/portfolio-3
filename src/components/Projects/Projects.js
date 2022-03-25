@@ -5,6 +5,7 @@ import cciImage from '../../assets/ccidualview.png';
 import relativepayImage from '../../assets/relativepaydualview.png';
 import nebofitImage from '../../assets/nebofitdualview.png';
 import s3Image from '../../assets/S3_center.gif';
+import bjjImage from '../../assets/bjjcurrdualview.png'
 
  
 class Projects extends Component {
@@ -40,6 +41,13 @@ class Projects extends Component {
           description: 'Full stack website that allows for easy sign up to the pickup games for Dartmouth Tuck soccer club and post the sign up player list to the GroupMe message group via a bot. The app will create 2 or 4 randomized teams based on number of players and clear itself after the game is over.',
           image: s3Image,
           url: 'https://github.com/WilliamHartman/s3'
+        },
+        {
+          name: 'BJJ Curriculum',
+          tech: 'React, Node, JavaScript, PostgreSQL, Auth0, Express, Massive, MUI, MUI DateGrid, Flexbox',
+          description: 'Full stack website tracks a students progress in techniques required to be promoted to blue belt from white belt in Brazillian Jiu-Jitsu. Instructors can view their students progress through the app to learn what techniques each student knows so they can prepare lessons and drills for class.',
+          image: bjjImage,
+          url: 'https://github.com/WilliamHartman/bjjcurriculum'
         }
     ]
   }
