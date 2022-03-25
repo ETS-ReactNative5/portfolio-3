@@ -14,6 +14,7 @@ import jestIcon from '../../assets/jest.svg';
 import cypressIcon from '../../assets/cypress-logo.png';
 import azureIcon from '../../assets/azure-logo.png';
 import mysqlIcon from '../../assets/mysql-logo.png';
+import muiIcon from '../../assets/muilogo.png';
 
 
 class Skills extends Component {
@@ -34,9 +35,10 @@ class Skills extends Component {
               <li><span className='skill-icon-span'><img src={htmlIcon} alt="html icon" className='skills-icon skills-html-icon' data-tip="HTML"/></span></li>
               <li><span className='skill-icon-span'><img src={cssIcon} alt="css icon" className='skills-icon skills-css-icon' data-tip="CSS"/></span></li>
               <li><span className='skill-icon-span'><img src={javascriptIcon} alt="javascript icon" className='skills-icon skills-javascript-icon' data-tip="Javascript"/></span></li>
-              <li><span className='skill-icon-span'><img src={cypressIcon} alt="javascript icon" className='skills-icon skills-cypress-icon' data-tip="cypress.io"/></span></li>
-              <li><span className='skill-icon-span'><img src={azureIcon} alt="javascript icon" className='skills-icon skills-azure-icon' data-tip="azure"/></span></li>
-              <li><span className='skill-icon-span'><img src={mysqlIcon} alt="javascript icon" className='skills-icon skills-mysql-icon' data-tip="mysql"/></span></li>
+              <li><span className='skill-icon-span'><img src={cypressIcon} alt="cypress icon" className='skills-icon skills-cypress-icon' data-tip="cypress.io"/></span></li>
+              <li><span className='skill-icon-span'><img src={azureIcon} alt="azure icon" className='skills-icon skills-azure-icon' data-tip="azure"/></span></li>
+              <li><span className='skill-icon-span'><img src={mysqlIcon} alt="mysql icon" className='skills-icon skills-mysql-icon' data-tip="mysql"/></span></li>
+              <li><span className='skill-icon-span'><img src={muiIcon} alt="mui icon" className='skills-icon skills-mysql-icon' data-tip="mysql"/></span></li>
           </ul>
         </div>
         <ReactTooltip place="top" type="dark" effect="float"/>
