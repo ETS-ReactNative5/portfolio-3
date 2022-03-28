@@ -8,20 +8,30 @@
 }
 
 .social-media {
-    width: 125px;
+    width: 180px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer-resume {
-    height: 27px;
-    width: 29px;
-    background-color: white;
+.footer-link {
+    background-color: #143306;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 1px;
     margin: 0 0 0 2px;
+}
+
+.footer-resume {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1px;
+    margin: 0 2px 0 2px;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
+import Tooltip from '@mui/material/Tooltip';
 import LinkedinIcon from 'react-icons/lib/fa/linkedin-square';
 import GithubIcon from 'react-icons/lib/fa/github-square';
 import EmailIcon from 'react-icons/lib/fa/envelope-square';
@@ -12,29 +13,43 @@ class Footer extends Component {
     return (
       <div className="Footer">
         <div className="social-media">
-                <LinkedinIcon 
-                  size={35}
-                  color={'white'}
-                  onClick={()=> window.open("https://www.linkedin.com/in/hartman-william/", "_blank")}
-                />
-                <GithubIcon 
-                  size={35}
-                  color={'white'}
-                  onClick={()=> window.open("https://github.com/WilliamHartman", "_blank")}                  
-                />
-                <EmailIcon 
-                  size={35}
-                  color={'white'}
-                  onClick={()=> window.open("mailto:hartman.william@gmail.com", "_blank")}                  
-                />
-                <div className='footer-resume'>
-                  <ResumeIcon 
-                    size={18}
-                    color={'#143306'}
-                    onClick={()=> window.open(resume)}                  
-                  />
-                </div>
+          <Tooltip title="LinkedIn">
+          <div className='footer-link'>
+            <LinkedinIcon 
+              size={35}
+              color={'white'}
+              onClick={()=> window.open("https://www.linkedin.com/in/hartman-william/", "_blank")}
+            />
+          </div>
+          </Tooltip>
+          <Tooltip title="Github">
+          <div className='footer-link'>
+            <GithubIcon 
+              size={35}
+              color={'white'}
+              onClick={()=> window.open("https://github.com/WilliamHartman", "_blank")}                  
+            />
             </div>
+          </Tooltip>
+          <Tooltip title="Email">
+          <div className='footer-link'>
+            <EmailIcon 
+              size={35}
+              color={'white'}
+              onClick={()=> window.open("mailto:hartman.william@gmail.com", "_blank")}                  
+            />
+            </div>
+          </Tooltip>
+          <Tooltip title="Resume">
+            <div className='footer-resume'>
+              <ResumeIcon 
+                size={19}
+                color={'#143306'}
+                onClick={()=> window.open(resume)}                  
+              />
+            </div>
+          </Tooltip>
+        </div>
       </div>
     );
   }
